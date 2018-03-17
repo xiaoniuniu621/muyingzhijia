@@ -1,0 +1,31 @@
+body {
+  background: #fff; }
+
+.ui-top-bar {
+  width: 1240px;
+  margin: 0 auto;
+  padding-top: 13px; }
+  .ui-top-bar .ui-logo {
+    float: left;
+    width: 18.5%;
+    height: 73px;
+    overflow: hidden;
+    float: left; }
+    .ui-top-bar .ui-logo a {
+      width: 152px;
+      height: 73px; }
+    .ui-top-bar .ui-logo img {
+      width: 150px;
+      height: 55px;
+      margin-top: 14px; }
+  .ui-top-bar .header-extra {
+    float: left;
+    overflow: visible;
+    position: relative;
+    padding-top: 15px;
+    width: 81%; }
+
+.ui-nav {
+  border-bottom: 1px solid #ccc; }
+
+/*# sourceMappingURL=details.css.map */

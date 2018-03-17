@@ -1,0 +1,40 @@
+@charset "utf-8";
+$commonColor:#FF5f00;
+
+body{
+    background: #fff;
+}
+
+.ui-top-bar{
+    width: 1240px;
+    margin: 0 auto;
+    padding-top: 13px;
+    .ui-logo{
+        float: left;
+        width: 18.5%;
+        height: 73px;
+        overflow: hidden;
+        float: left;
+        a{
+            width: 152px;
+            height: 73px;
+        }
+        img{
+          width: 150px;
+          height: 55px;
+          margin-top: 14px;  
+        }
+    }
+    .header-extra{
+        float: left;
+        overflow: visible;
+        position: relative;
+        padding-top: 15px;
+        width: 81%;
+    }
+}
+
+
+.ui-nav{
+    border-bottom: 1px solid #ccc;
+}

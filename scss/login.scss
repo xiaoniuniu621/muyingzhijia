@@ -1,0 +1,384 @@
+@charset "utf-8";
+$commonColor:#FF5f00;
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+}
+.site-nav{
+    .sn-bd{
+        width: 1000px;
+    }
+}
+.muyingLogo{
+    background-color: #fff;
+    border-bottom: 1px solid #d3d3d3;
+    box-shadow: 5px 9px 42px #e4e4e4;
+    padding-bottom: 10px;
+    .header{
+        height: 75px;
+        position: relative;
+        padding-top: 20px;
+        .logo{
+            a{
+                display: block;
+                width: 268px;
+                height: 80px;
+                background: none;
+                img{
+                    width: 150px;
+                    height: 55px;
+                }
+            }
+        }
+    }
+}
+.main{
+    .login-nav{
+        height: 37px;
+        position: relative;
+        ul{
+            width: 504px;          
+            margin: 0 auto;
+            height: 37px;
+            margin-top: 18px;
+            li{
+                float: left;
+                width: 240px;
+                border: 1px solid #dedede;
+                margin-left: 10px;
+                border-bottom: none;
+                background: #fff;
+                height: 36px;
+                line-height: 35px;
+                text-align: center;
+                background: #f8f8f8;
+                a{
+                    font-size: 14px;
+                    color: #979797;
+                    font-weight: bold;
+                }
+                i{
+                    background: url(../images/login/register.png);
+                    background-position: -290px 1px;
+                    width: 27px;
+                    height: 27px;
+                    vertical-align: -5px;
+                    display: inline-block;
+                }
+                &.selected{
+                    background: #fff;
+                    border-top: 3px solid #f90;
+                    height: 35px;
+                   
+                    a{
+                        color:$commonColor ;
+                    }
+                    i{
+                        background-position: -255px 1px;
+                        width: 38px;
+                        height: 27px;
+
+                    }
+                }
+            }
+        }
+        
+    }
+    .content{
+        width: 1000px;
+        margin: 0 auto;
+        border: 1px solid #d3d3d3;
+        zoom: 1;
+        padding: 40px 10px 10px;
+        position: relative;
+        height: 380px;
+        background: #fff;
+        z-index: -1;
+        .regist{
+            display: none
+        }  
+        .login{
+            display: block;
+            .login-left{
+                height: 300px;
+                float: left;
+                width: 45%;
+                text-align: center;
+                padding-left: 50px;
+                img{
+                    width: 340px;
+                    height: 300px;
+                }
+            }
+            .login-right{
+                float: right;
+                width: 50%;
+                margin-top: 20px;
+                ul{
+                    overflow: hidden;
+                }
+               
+            }
+        }  
+        
+        .register-form{
+            li{
+                float: left;
+                line-height: 20px;
+                min-height: 63px;
+                label{
+                    display: block;
+                    float: left;
+                    padding-right: 5px;
+                    font-size: 12px;
+                    color: #666;
+                    font-family: '\5b8b\4f53';
+                };
+                .lable1{
+                    text-align: right;
+                    width: 150px;
+                    height: 35px;
+                    line-height: 35px;
+                }
+                .inputCont{
+                    position: relative;
+                    overflow: hidden;
+                    width: 320px;
+                    float: left;
+                    input{
+                        width: 239px;
+                        vertical-align: baseline;
+                        padding: 7px 4px 6px;
+                        padding-right: 30px;
+                        height: 20px;
+                        font-size: 12px;
+                        border-width: 1px;
+                    }
+                    .stickTips{
+                        height: 25px;
+                        display: block;
+                    }
+                    .noticeWrap{
+                        margin: 2px 0 0 0;
+                    }
+                    .noticeWrap-err{
+                        border: 1px solid #FF9900;
+                        background: #ffedb5;
+                        color: #E60000;
+                        border-radius: 3px;
+                    }
+                    .argWrap{
+                        width: 275px;
+                        float: left;
+                        .checkbox{
+                            vertical-align: middle;
+                            margin-top: 11px;
+                            width: auto;
+                            height: auto;
+                            padding: 0;
+                            border: none;
+                            float: left;
+                        }
+                    }
+                }
+            }
+        }
+        .login-form{
+            li{
+                padding: 0;
+                position: relative;
+                float: left;
+                line-height: 20px;
+                min-height: 63px;
+                
+                
+                .inputCont{
+                    position: relative;
+                    overflow: hidden;
+                    float: left;
+                    .argWrap{
+                        .checkbox{
+                            margin: 5px 3px 3px 4px;
+                        }
+                    }
+                    input.submit-area{               
+                        
+                        width: 229px;
+                        height: 40px;
+                        cursor: pointer;
+                        border: none;
+                        background: url(../images/login/register.png) 0 -328px no-repeat;
+                    }                   
+                }
+                .login-icon{
+                    position: absolute;
+                    width: 34px;
+                    height: 28px;
+                    display: block;
+                    top: 3px;
+                    left: 394px;
+                    background: url(../images/login/register.png) no-repeat;
+                }
+                .email-icon{
+                    background-position: -120px 0;
+                }
+                .password-icon{
+                    background-position: -153px 0;
+                }
+                
+            }
+            .forgetpassword{
+                font-size: 14px;
+                color: #20bfff;
+            }
+        
+        }
+        .otherwise{
+            margin-left: 156px;
+            overflow: hidden;
+            .sign-title-right{
+                color: #4d4d4d;
+                font-size: 12px;
+                font-family: '\5b8b\4f53';
+            }
+            .sign-right-list{
+                margin-top: 5px;
+            }
+            .othercount{
+                float: left;
+                margin-right: 10px;
+                a{
+                    display: inline-block;
+                    background: url(../images/login/register.png);
+                    width: 24px;
+                    height: 24px;                    
+                    
+                }
+                .weibo{
+                    background-position: -2px -301px;
+                }
+                .alipay{
+                    background-position: -28px -301px;
+                }
+                .qq{
+                    background-position: -84px -301px;
+                }
+            }
+        }
+    }
+    
+}
+.footer{
+    background-color: #fff;
+    margin-top: 40px;
+    padding-top: 10px;
+    border-top: 1px solid #dedede;
+    .tfc_footer{
+        text-align: center;
+        line-height: 24px;
+        margin-top: 15px;
+        background: #fff;
+        margin-top: 0;
+        .tfc_3{
+            padding: 5px;
+        }
+    }
+}
+
+
+
+//公用
+.noticeWrap {
+    line-height: 16px;
+    color: #000;
+    float: left;
+    font-family: Verdana, arial, sans-serif;
+    text-align: left;
+    font-size: 12px;
+    padding: 2px 5px 2px 2px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 7px 0 0 8px;
+    overflow: hidden;
+    height: 16px;
+}
+.noticeWrap {
+    margin-left: 20px;
+}
+.g-ipt{
+    text-align: left;
+    line-height: normal;
+    margin: 0;
+    vertical-align: middle;
+    border: 1px solid #C1C1C1;
+    font-size: 12px;
+    height: 14px;
+    color: #999999;
+    padding: 7px 4px;
+}
+.g-ipt-err{
+    text-align: left;
+    line-height: normal;
+    margin: 0;
+    vertical-align: middle;
+    font-size: 12px;
+    height: 14px;
+    border: 1px solid #e60000;
+    color: #e60000;
+    padding: 7px 4px;
+}
+.g-ipt-active{
+    line-height: normal;
+    margin: 0;
+    vertical-align: middle;
+    border: 1px solid#FF9900;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.75) inset,0 0 8px rgba(255,120,0,0.6);
+    outline: 0 none;
+    color: #999999;
+    font-size: 12px;
+    height: 14px;
+    text-align: left;
+    padding: 7px 4px;
+}
+.ico-succ {
+    line-height: 166.6%;
+    color: #000;
+    text-align: left;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../images/login/onSuccess.gif) no-repeat -2px -3px;
+    width: 16px;
+    height: 16px;
+    padding: 0 0 0 5px;
+    float: left;
+}
+.icon-warning  {
+    line-height: 166.6%;
+    color: #000;
+    text-align: left;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../images/login/onError.gif) no-repeat 0px 0px;
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    margin-left: 2px;
+    float: left;
+}
+.txt-succ {
+    text-align: left;
+    font-size: 12px;
+    color: #0e931c;
+    float: left;
+    line-height: 16px;
+}
+.txt-err {
+    text-align: left;
+    font-size: 12px;
+    color: #f00;
+    float: left;
+    padding-left: 3px;
+    line-height: 16px;
+}
